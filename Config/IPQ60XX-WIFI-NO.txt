@@ -30,7 +30,7 @@ CONFIG_PACKAGE_ath11k-firmware-ipq6018=n
 CONFIG_PACKAGE_ath11k-firmware-ipq6018-ddwrt=n
 CONFIG_PACKAGE_ath11k-firmware-qcn9074=n
 CONFIG_PACKAGE_ath11k-firmware-qcn9074-ddwrt=n
-# zram虚拟内存支持（解决kmod-zram缺失）
+#zram虚拟内存支持（解决kmod-zram缺失）
 CONFIG_PACKAGE_zram-swap=y
 CONFIG_PACKAGE_kmod-zram=y
 CONFIG_KERNEL_ZRAM=y
@@ -39,7 +39,8 @@ CONFIG_KERNEL_ZRAM_COMPRESSION=y
 CONFIG_PACKAGE_jq=y
 #端口探测
 CONFIG_PACKAGE_netcat=y
-# BBR拥塞控制
+#BBR拥塞控制
 CONFIG_PACKAGE_kmod-tcp-bbr=y
 CONFIG_PACKAGE_kmod-tcp-bbr-ca=y
-
+#argon主题
+CONFIG_PACKAGE_luci-theme-argon=y
